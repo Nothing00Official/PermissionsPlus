@@ -1,0 +1,63 @@
+###########################################
+#                                         #
+#        Plugin made by Nothing00         #
+#                                         #
+###########################################
+
+# Permissions
+# perm.reload
+# perm.list
+# perm.list.create
+# perm.list.delete
+# perm.help
+# perm.list.addperm
+# perm.list.removeperm
+# perm.group
+# perm.group.addperm
+# perm.group.removeperm
+# perm.group.prefix
+# perm.group.suffix
+# perm.user
+# perm.user.addgroup
+# perm.user.removegroup
+# perm.user.addperm
+# perm.user.removeperm
+# perm.user.prefix
+# perm.user.suffix
+# perm.lockable
+# perm.group.gui
+# perm.group.gui.addperm
+# perm.group.gui.removeperm
+
+Security:
+ # if enable the groups that have perm.lockable permissions ask player in group to set a password.
+ # when a player quit from server and is in a locked group and have set a password on re-join he will be have 
+ # default permissions and will must type /permlock on <password> to receive permissions group
+ on-off-group-password: false
+ password-message-join: '&9PermissionsPlus> &7set a password for active your permissions on re-join. Use &e/permlock <password>'
+ error-moregroup-message: '&9PermissionsPlus> &7Your are in more than one group. For use this you must be only in one group!'
+ error-defaultgroup-message: '&9PermissionsPlus> &7You can''t lock default group!'
+ unlock-message-join: '&9PermissionsPlus> &7to switch-on your permissions group type &e/permlock on <password>'
+ disable-message: '&9PermissionsPlus> &7to switch-off your permissions group type &e/permlock off'
+ unlocked-message: '&9PermissionsPlus> &7Permissions group received!'
+ disabled-message: '&9PermissionsPlus> &7Now you have default permissions!'
+ password-length-message: '&9PermissionsPlus> &7Password must be have more than 4 characters!'
+ password-update-message: '&9PermissionsPlus> &7Password succefully updated!'
+ password-wrong: '&9PermissionsPlus> &7Wrong Password!'
+ # this prevent exploit bug for UUID
+ UUID-protection: false
+ uuid-protection-message: '&cYou are denied from our server for using UUID exploit!'
+ # if is true if a player is opped and quit deop him
+ deop-on-quit: false
+ # set this to true if you want that only op player can use all PermissionsPlus commands
+ onlyOp-usePerm: false
+ 
+# if you use permissions finder choose if you want to see permissions that you already have.
+green-permissions: true 
+
+# message to send user on demote or promote
+promote-message: '&9PermissionsPlus> &7Congratuliations! You are now'
+demote-message: '&9PermissionsPlus> &7Sorry, but you have been demoted'
+
+# create a permissions list to add to group or users using list:namelist
+PermissionsLists: {}

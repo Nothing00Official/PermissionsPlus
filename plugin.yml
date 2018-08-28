@@ -1,0 +1,23 @@
+name: PermissionsPlus
+main: PermissionsPlus.Nothing00.Main
+version: 1.5.6
+description: set group and user permissions
+commands:
+     PermissionsPlus:
+        description: main command
+        aliases: [pp, perm, perms, pplus]
+     permgroup:
+        description: commands for permissions groups
+        aliases: [pgroup, permg]
+     permgroupgui:
+        description: manage more than one group
+        aliases: [pgroupgui, permggui, pggui]
+     permuser:
+        description: commands for permissions Users
+        aliases: [puser, permu]
+     permlock:
+        description: commands for switch-on-off permissions
+        aliases: [plock]
+     permrank:
+        description: commands manage rank category
+        aliases: [category]
